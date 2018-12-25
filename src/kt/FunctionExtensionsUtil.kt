@@ -11,3 +11,12 @@ fun String.repeat(n:Int): String {
     }
     return sb.toString()
 }
+
+
+fun  List<Int>.sum():Int {
+    var result = 0
+    for (i in this)
+        result += i
+
+    return result
+}
