@@ -1,7 +1,9 @@
-package kt
+package kt.function
+
+import kt.classModifier.Colour
 
 
-//Converting function to expression body useful only in case of functions with simple expression
+//Converting function to expression body useful only in case of function with simple expression
 fun max(a:Int, b:Int): Int = when {
     a<b -> a
     else -> b
@@ -9,12 +11,12 @@ fun max(a:Int, b:Int): Int = when {
 
 // Function returning Unit which is equivalent to void of java
 fun displayMax(a:Int, b:Int){
-    println(max(a,b))
+    println(max(a, b))
 }
 
 // Function explicitly returning Unit
 fun displayMaxWithUnitReturnType(a:Int, b:Int): Unit{
-    println(max(a,b))
+    println(max(a, b))
 }
 
 
@@ -60,7 +62,7 @@ fun updateWeatherEvenMoreConcise(degree: Int) {
 
 // ------------------------- Types of Function -------------------------//
 
-// Top level Function - All top level functions in kt can be called as static methods in java
+// Top level Function - All top level function in kt can be called as static methods in java
 fun topLevel() =1
 
 // Member Function

@@ -1,4 +1,4 @@
-package kt
+package kt.extension
 
 //this on right hand side of '=' refers to String of left hand side
 fun String.lastChar() = get(this.length-1)

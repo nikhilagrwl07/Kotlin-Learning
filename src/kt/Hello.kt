@@ -1,6 +1,6 @@
 package kt
 
-import kt.Colour.*
+import kt.function.updateWeather
 
 fun main(args: Array<String>) {
     val person = Person("Nikhil", 26)

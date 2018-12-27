@@ -1,4 +1,4 @@
-package kt
+package kt.lambdas
 
 fun main(args: Array<String>) {
 

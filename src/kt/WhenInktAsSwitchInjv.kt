@@ -1,6 +1,7 @@
 package kt
 
-import kt.Colour.*
+import kt.classModifier.Colour
+import kt.classModifier.Colour.*
 
 fun main(args: Array<String>) {
     println(getdescription(GREEN))

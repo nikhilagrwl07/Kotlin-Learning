@@ -1,4 +1,4 @@
-package kt
+package kt.function
 
 fun main(args: Array<String>) {
 

@@ -1,4 +1,4 @@
-package kt
+package kt.extension
 
 fun main(args: Array<String>) {
     println(ExtensionCanOverloadMember().foo(2))

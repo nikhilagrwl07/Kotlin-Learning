@@ -1,7 +1,7 @@
-package kt
+package kt.collection
 
-import kt.Gender.FEMALE
-import kt.Gender.MALE
+import kt.collection.Gender.FEMALE
+import kt.collection.Gender.MALE
 
 fun main(args: Array<String>) {
 
