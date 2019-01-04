@@ -21,5 +21,18 @@ public class MainDriver {
         String repeatedStringNtimes = repeat("abc", 3);
 
         System.out.println(repeatedStringNtimes);
+
+        Integer a =100;
+        Integer b =100;
+
+        if(a==b)
+            System.out.println("checking a==b");
+
+
+        Integer d =130;
+        Integer e =130;
+
+        if(d==e)
+            System.out.println("checking d==e");
     }
 }
